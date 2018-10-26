@@ -35,7 +35,7 @@ struct stud
   int disp(int n)
   {
    int x,i,j,k,f,av[100],z;
-   printf(".....................STUDENT DETAILS.....................\n\n\n");
+   printf("......................STUDENT DETAILS.....................\n\n\n");
    printf("\n1.Single student\n2.All\n3.Exit\n\n  Make your selection(1-3) : ");
    scanf("%d",&x);
    
@@ -100,7 +100,7 @@ struct stud
   int q=1,sl,n;
   while(q==1)
   {
-   
+   //Menu
    printf(".....................STUDENT DETAILS.....................\n\n\n");
    printf("\n1.Enter Data\n2.View Details\n3.Exit\n\n  Make your selection(1-3) : ");
    scanf("%d",&sl);
